@@ -1,6 +1,6 @@
 import json
 
-from object import SelfLLMObject
+from self_llm.object import SelfLLMObject
 
 
 def convert_to_selfllm_object(data: bytes) -> SelfLLMObject:

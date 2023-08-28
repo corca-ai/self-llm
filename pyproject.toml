@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "self-llm"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Taeho Lee", email="adldotori@gmail.com" },
 ]
