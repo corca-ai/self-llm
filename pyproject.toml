@@ -5,13 +5,19 @@ build-backend = "hatchling.build"
 
 [project]
 name = "self-llm"
-version = "0.0.3"
+version = "0.0.5"
 authors = [
   { name="Taeho Lee", email="adldotori@gmail.com" },
 ]
 description = "A package for using self-served LLM"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["LLM", "self-llm", "corca", "corca-ai", "corca.ai", "corca ai"]
+dependencies = [
+  "requests==2.31.0",
+  "requests_async==0.6.2",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
